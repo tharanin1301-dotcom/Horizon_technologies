@@ -1,0 +1,22 @@
+# Key Findings
+
+1. Dataset Facts: 
+   - Shape after cleaning: (201, 28)
+   - Numerical features: 12
+   - Categorical features: 10
+
+2. Price Distribution:
+   - Car prices are right-skewed, meaning most cars are clustered in the lower/mid price range, with fewer expensive luxury cars.
+
+3. Correlation Insights:
+   - Strongest positive correlations with price usually include 'engine-size', 'curb-weight', and 'horsepower'.
+   - Strong negative correlation observed between 'city-mpg' and price, meaning more fuel-efficient cars tend to be cheaper.
+
+4. Model Performance:
+   - Best Model: Gradient Boosting
+   - Best R-squared: 0.9473
+   - Root Mean Squared Error (RMSE): 2539.05
+
+5. Residual Analysis:
+   - For lower to mid-range prices, the residuals are relatively balanced. 
+   - Larger errors occur at the higher price spectrum due to sparse data for luxury vehicles.
