@@ -1,0 +1,45 @@
+======================================================================
+KEY ANALYTICAL FINDINGS & EVIDENCE-BASED INSIGHTS
+Horizon TechX Internship - Task 2: Unemployment Analysis Using Python
+Student: Tharani Natarajan | IFET College of Engineering
+======================================================================
+
+1. OVERALL LABOUR MARKET TRAJECTORY:
+   - Across the 14-month monitoring window (May 2019 to June 2020),
+     the national average unemployment rate stood at 11.79% (median: 8.35%).
+   - Observations ranged from a low of 0.00% to a historical peak of 76.74%.
+   - The distribution exhibited strong positive right-skewness, reflecting normal baseline
+     rates below 10% punctuated by severe acute surges in specific months and states.
+
+2. COVID-19 PERIOD OBSERVATIONS (MAY 2019 - FEB 2020 VS. MAR 2020 - JUN 2020):
+   - Baseline Pre-COVID Unemployment Rate Mean : 9.51%
+   - COVID Lockdown Period Unemployment Rate   : 17.77%
+   - Absolute Increase                         : +8.26 percentage points
+   - Relative Percentage Increase               : +86.91%
+   - The surge was sharpest in April and May 2020 following the March 24, 2020 nationwide lockdown,
+     accompanied by an acute temporary contraction in estimated employed numbers.
+
+3. REGIONAL AND GEOGRAPHIC DISPARITIES:
+   - Highest average unemployment was observed in:
+     1) Tripura: 28.35%
+     2) Haryana: 26.28%
+     3) Jharkhand: 20.59%
+   - Lowest average unemployment was observed in:
+     1) Meghalaya: 4.80%
+     2) Odisha: 5.66%
+     3) Assam: 6.43%
+   - Urban sectors recorded a slightly higher mean unemployment rate compared to rural sectors,
+     reflecting greater vulnerability of service-oriented and informal urban contracts to mobility curbs.
+
+4. CORRELATION AND STATISTICAL ASSOCIATIONS:
+   - Pearson r between Unemployment Rate and Labour Participation: 0.003
+   - Pearson r between Unemployment Rate and Employed Count: -0.223
+   - The correlation between unemployment rate and labour participation rate is weak-to-moderate,
+     indicating that shifts in labor force participation alone do not account for unemployment spikes.
+   - CAUSAL NOTE: These correlations describe co-movement, not direct causality.
+     Economic shocks, sectoral compositions, and policy responses operate simultaneously.
+
+5. PROJECT & METHODOLOGICAL LIMITATIONS:
+   - The dataset provides monthly aggregate estimates and does not track micro-level wage adjustments.
+   - Observations end in June 2020, capturing the immediate lockdown shock but not the extended multi-wave recovery.
+======================================================================

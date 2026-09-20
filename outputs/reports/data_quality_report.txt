@@ -1,0 +1,53 @@
+======================================================================
+DATA QUALITY AUDIT REPORT - UNEMPLOYMENT ANALYSIS USING PYTHON
+Horizon TechX Internship | Student: Tharani Natarajan
+======================================================================
+
+1. DATASET DIMENSIONS & INTEGRITY:
+   - Raw File Record Count       : 768 rows
+   - Raw Column Count            : 7 columns
+   - Cleaned Record Count        : 740 valid observations
+   - Cleaned Column Count        : 12 columns
+   - Dropped Blank/Null Rows     : 28 rows (all-NaN trailing rows)
+   - Duplicate Observations      : 0 rows
+
+2. TEMPORAL & GEOGRAPHIC COVERAGE:
+   - Earliest Date Recorded      : 31-May-2019
+   - Latest Date Recorded        : 30-Jun-2020
+   - Total Months Monitored      : 14 consecutive months
+   - Unique Regions/States       : 28 States & Union Territories
+   - Geographic Classifications  : Rural, Urban
+
+3. MISSING VALUES PER COLUMN (AFTER CLEANING):
+   - Region                                  : 0 missing (0.00%)
+   - Date                                    : 0 missing (0.00%)
+   - Frequency                               : 0 missing (0.00%)
+   - Estimated Unemployment Rate (%)         : 0 missing (0.00%)
+   - Estimated Employed                      : 0 missing (0.00%)
+   - Estimated Labour Participation Rate (%) : 0 missing (0.00%)
+   - Area                                    : 0 missing (0.00%)
+   - Year                                    : 0 missing (0.00%)
+   - Month                                   : 0 missing (0.00%)
+   - Month_Name                              : 0 missing (0.00%)
+   - YearMonth                               : 0 missing (0.00%)
+   - Period                                  : 0 missing (0.00%)
+
+4. SUMMARY METRICS - ESTIMATED UNEMPLOYMENT RATE (%):
+   - Minimum Unemployment Rate   : 0.00%
+   - 25th Percentile (Q1)        : 4.66%
+   - Median Unemployment Rate    : 8.35%
+   - Mean Unemployment Rate      : 11.79%
+   - 75th Percentile (Q3)        : 15.89%
+   - Maximum Unemployment Rate   : 76.74%
+   - Standard Deviation          : 10.72%
+
+5. SUMMARY METRICS - EMPLOYMENT & LABOUR PARTICIPATION:
+   - Mean Estimated Employed     : 7,204,460 persons
+   - Median Estimated Employed   : 4,744,178 persons
+   - Mean Labour Participation   : 42.63%
+   - Labour Participation Range  : 13.33% to 72.57%
+
+6. DATA VALIDATION CONCLUSION:
+   - The dataset passed all structural hygiene, schema consistency,
+     and physical sanity checks (no negative rates, valid date ranges).
+======================================================================
